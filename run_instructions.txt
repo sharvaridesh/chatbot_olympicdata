@@ -1,3 +1,0 @@
-1. Replace OPENAIAPI_KEY with your OPENAI API_KEY in the file security_keys.env (link to create openai api key - https://gptforwork.com/help/knowledge-base/create-openai-api-key)
-2. Install necessary packages by running 'pip install -r requirements.txt'
-3. Run file by running streamlit run chatbot_data.py
