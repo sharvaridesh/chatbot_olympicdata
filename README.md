@@ -5,7 +5,8 @@ This project is an interactive chatbot application built with Streamlit, LangCha
 
 ## Features
 
-- **SQL Query Handling**: The chatbot can answer data-specific questions by generating and executing SQL queries on an in-memory SQLite database containing Olympic data.
+- **SQL Query Handling**: The chatbot can answer data-specific questions by generating and executing SQL queries on an in-memory SQLite database containing Olympic data. It can interprets natural language queries, converts them into SQL queries, executes them, and returns the results in a user-friendly format.
+- **Chain of Thought Prompting**: The chatbot uses a structured approach to reasoning. For each user query, it generates an SQL query, executes it, and then formulates an answer based on the results, ensuring a logical and transparent reasoning process.
 - **In-Memory SQLite Database**: Olympic data is loaded into an in-memory SQLite database for fast and efficient querying.
 - **Conversational Capabilities**: The chatbot can engage in simple conversation, responding to greetings and casual questions.
 - **Streamlit Interface**: The application uses Streamlit to create an interactive web interface, allowing users to input their questions and receive responses in real-time.
